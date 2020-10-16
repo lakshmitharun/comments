@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T08:59:11.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Q8bnPkUYVQZNzoQzOyNF" version="13.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-16T08:59:18.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Gul-j-yZ7uWFlefGAkXY" version="13.8.0" type="github" pages="2">
   <diagram id="d55dYAp35ry6PAoLyxzK" name="Page-1">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,39 +12,6 @@
       <root>
         <mxCell id="69yyvrFc_0hbgdnAWkqg-0" />
         <mxCell id="69yyvrFc_0hbgdnAWkqg-1" parent="69yyvrFc_0hbgdnAWkqg-0" />
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-2" value="Node JS server which acts as Hub" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="69yyvrFc_0hbgdnAWkqg-1">
-          <mxGeometry x="334" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-4" value="User 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="69yyvrFc_0hbgdnAWkqg-1">
-          <mxGeometry x="170" y="210" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-5" value="User 2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="69yyvrFc_0hbgdnAWkqg-1">
-          <mxGeometry x="590" y="210" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-10" value="" style="endArrow=classic;html=1;entryX=0.01;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="69yyvrFc_0hbgdnAWkqg-1" target="69yyvrFc_0hbgdnAWkqg-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="230" as="sourcePoint" />
-            <mxPoint x="260" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-11" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="69yyvrFc_0hbgdnAWkqg-1" target="69yyvrFc_0hbgdnAWkqg-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="414" y="260.64" as="sourcePoint" />
-            <mxPoint x="538.8" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-12" value="" style="endArrow=classic;html=1;" edge="1" parent="69yyvrFc_0hbgdnAWkqg-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="574" y="230" as="sourcePoint" />
-            <mxPoint x="414" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="69yyvrFc_0hbgdnAWkqg-13" value="" style="endArrow=classic;html=1;" edge="1" parent="69yyvrFc_0hbgdnAWkqg-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="334" y="260" as="sourcePoint" />
-            <mxPoint x="210" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
