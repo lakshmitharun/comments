@@ -1,1 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2020-10-16T07:15:05.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.8.0" etag="Uq1vNSBY6wP6GM6UAtXh" type="github"><diagram id="d55dYAp35ry6PAoLyxzK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-16T07:44:22.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="QtUEFBxcQ7oWic_x9nqZ" version="13.8.0" type="github">
+  <diagram id="d55dYAp35ry6PAoLyxzK" name="Page-1">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kIJcByAOM249txwwrD3L-1" value="User clicks on Collaborate in Case designer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-2" value="Create a new session with Together JS Hub and get the session Id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kIJcByAOM249txwwrD3L-1" target="kIJcByAOM249txwwrD3L-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="220" as="sourcePoint" />
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-4" value="Store the togetherJS session id in persistence layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-5" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kIJcByAOM249txwwrD3L-2" target="kIJcByAOM249txwwrD3L-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+            <mxPoint x="430" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-6" value="User 1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kIJcByAOM249txwwrD3L-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;New Collaboration Session creation&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Connect to existing session&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="310" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-10" value="User clicks on Collaborate in case designer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-11" value="Check in persistence layer if there is an existing session already running" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-12" value="If there is already an existing session connect to that session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-13" value="If no existing session associated with that case type create a new session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="419" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-19" value="&lt;font style=&quot;font-size: 10px&quot;&gt;If there is an existing Together SJ Session&lt;/font&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="414" y="481" width="130" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-22" value="" style="endArrow=classic;html=1;exitX=0.495;exitY=0.959;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kIJcByAOM249txwwrD3L-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="585" as="sourcePoint" />
+            <mxPoint x="478" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-23" value="" style="endArrow=classic;html=1;exitX=0.495;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kIJcByAOM249txwwrD3L-19" target="kIJcByAOM249txwwrD3L-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIJcByAOM249txwwrD3L-25" value="" style="endArrow=classic;html=1;entryX=0.062;entryY=0.487;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="kIJcByAOM249txwwrD3L-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="410" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
